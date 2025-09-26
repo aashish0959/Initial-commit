@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
@@ -35,29 +34,5 @@
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.13",
     "vite": "^6.3.5"
-=======
-  "name": "backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^2.2.0",
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "mongodb": "^6.20.0",
-    "mongoose": "^8.18.2",
-    "mysql2": "^3.15.0"
-  },
-  "description": "",
-  "devDependencies": {
-    "nodemon": "^3.1.10"
->>>>>>> ec6dbd44df941f934d72974e62dd795af2a1f3ed
   }
 }
