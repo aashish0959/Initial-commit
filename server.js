@@ -7,19 +7,16 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose
-  .connect(
-    "mongodb+srv://aashishjadav0959:aashishjadav0959@cluster0.eucidr5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-  )
+mongoose.connect("mongodb+srv://ashishuser:Ashish123@cluster0.biy9wbk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
   .then(() => console.log("✅ MongoDB Connected"))
-  .catch((err) => console.log("❌ MongoDB Error:", err));
+  .catch(err => console.log("❌ MongoDB Error:", err));
 
 // Schema
 const expenseSchema = new mongoose.Schema({
   username: String,
   amount: Number,
   category: String,
-  date: Date,
+  date: Date
 });
 
 const Expense = mongoose.model("Expense", expenseSchema);
